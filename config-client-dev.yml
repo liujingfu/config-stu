@@ -1,0 +1,13 @@
+test:
+  config: dev
+server:
+  port: 8764
+
+spring:
+  application:
+    name: config-client
+eureka:
+  client:
+    serviceUrl:
+      # 注册中心地址
+      defaultZone: http://localhost:9000/eureka/
